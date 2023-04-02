@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37290" started-at="2023-01-12T16:47:53Z" finished-at="2023-01-12T16:48:30Z">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderedTest.submitTest(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Test.SubmitOrderedTest@68267da0]" name="submitTest" class="SeleniumFrameworkDesign.Test.SubmitOrderedTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test name="Error Validation Test" duration-ms="20" started-at="2023-01-12T16:47:53Z" finished-at="2023-01-12T16:47:53Z">
+    </test> <!-- Error Validation Test -->
+    <test name="Submit Order Test" duration-ms="37290" started-at="2023-01-12T16:47:53Z" finished-at="2023-01-12T16:48:30Z">
+      <class name="SeleniumFrameworkDesign.Test.SubmitOrderedTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:SeleniumFrameworkDesign.Test.SubmitOrderedTest@68267da0]" name="launchApplication" is-config="true" duration-ms="17928" started-at="2023-01-12T16:47:55Z" finished-at="2023-01-12T16:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitTest(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Test.SubmitOrderedTest@68267da0]" name="submitTest" duration-ms="6096" started-at="2023-01-12T16:48:13Z" data-provider="getData" finished-at="2023-01-12T16:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ab123456, product=ZARA COAT 3, email=postman12@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumFrameworkDesign.Test.SubmitOrderedTest@68267da0]" name="tearDown" is-config="true" duration-ms="135" started-at="2023-01-12T16:48:19Z" finished-at="2023-01-12T16:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:SeleniumFrameworkDesign.Test.SubmitOrderedTest@68267da0]" name="launchApplication" is-config="true" duration-ms="5067" started-at="2023-01-12T16:48:19Z" finished-at="2023-01-12T16:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitTest(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.Test.SubmitOrderedTest@68267da0]" name="submitTest" duration-ms="6118" started-at="2023-01-12T16:48:24Z" data-provider="getData" finished-at="2023-01-12T16:48:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumFrameworkDesign.Test.SubmitOrderedTest@68267da0]" name="tearDown" is-config="true" duration-ms="75" started-at="2023-01-12T16:48:30Z" finished-at="2023-01-12T16:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFrameworkDesign.Test.SubmitOrderedTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
